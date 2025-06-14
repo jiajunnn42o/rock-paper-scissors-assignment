@@ -6,6 +6,16 @@
 - Game determines and displays the result (Win, lose or draw)
 - Text-based output only (no images or animations)
 
+## Iteration 2 – Score System Added 🏆
+
+## Features
+- Added score tracking for both players:
+  - You +1 point when you win
+  - Doraemon +1 point when you lose
+- Scores are displayed in a single styled box next to the title
+- Layout refined for cleaner spacing and balance
+- Game result now shows in two centered lines
+
 ## Technologies
 - HTML
 - CSS
