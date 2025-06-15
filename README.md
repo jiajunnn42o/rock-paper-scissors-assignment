@@ -7,6 +7,50 @@ A browser-based Rock Paper Scissors game with Doraemon-themed design, sound effe
 
 ---
 
+## Branching and Merging Strategy
+
+To manage the development process effectively, we adopted a **feature-based branching strategy**:
+
+- **Branches**  
+  Each iteration was developed in its own branch (`iteration-1`, `iteration-2`, `iteration-3`) to keep the `main` branch clean and production-ready.
+
+- **Merging**  
+  After completing and testing the features of each iteration, we merged the corresponding branch into the `main` branch to ensure all work was integrated smoothly.
+
+- **Tagging**  
+  We used semantic version tags (e.g., `v1.0`, `v1.1`, `v2.0`, `v3.0-preview`, `v3.0`) to mark key milestones. This allowed us to track progress clearly and roll back if necessary.
+
+> This structured approach helped maintain a stable codebase while allowing us to develop and test features incrementally during each phase of the project.
+
+---
+
+## Iteration Breakdown
+
+### Iteration 1 - Basic Rock Paper Scissors Game
+
+- User selects Rock, Paper or Scissors
+- Computer randomly selects a move
+- Game determines and displays the result (Win, lose or draw)
+- Text-based output only (no images or animations)
+
+### Iteration 2 – Score System Added 
+
+- Score tracking for both players:
+  - You +1 point when you win
+  - Doraemon +1 point when you lose
+- Scores shown in styled box next to title
+- Game result displayed in two centered lines
+- Layout refined for cleaner visual balance
+
+### Iteration 3 - Result Animation & Sound Control
+
+- Added visual result display with player and Doraemon hands
+- Added Doraemon laughing / angry reactions for win/lose
+- Animated pop-in hand icons
+- Title replaced with animated GIF logo
+- Background music toggle + sound effects
+- Layout refined to simulate 2-page view (selection → result)
+
 ## Features
 
 -  Doraemon-styled animated buttons
@@ -76,7 +120,7 @@ We used a Trello Kanban board to manage the development of this Rock Paper Sciss
 - Features that were implemented were moved to `Testing`, then to `Done` once they passed testing.
 
 ### Effectiveness
-By categorizing our work into “Backlog”, “To Do”, “In Progress”, " Testing“ and ”Done" columns, we are able to easily track what work needs to be started, what is currently under development, and what has been completed.
+By categorizing our work into `Backlog`, `To Do`, `In Progress`, `Testing` and `Done` columns, we are able to easily track what work needs to be started, what is currently under development, and what has been completed.
 
 The visual nature of Kanban makes team collaboration much smoother as everyone can see what tasks are assigned to whom. It also encourages accountability within the group, as members can take on tasks independently without confusion or overlap.
 
