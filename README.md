@@ -6,7 +6,7 @@
 - Game determines and displays the result (Win, lose or draw)
 - Text-based output only (no images or animations)
 
-## Iteration 2 – Score System Added 🏆
+## Iteration 2 – Score System Added 
 
 ## Features
 - Added score tracking for both players:
@@ -15,6 +15,15 @@
 - Scores are displayed in a single styled box next to the title
 - Layout refined for cleaner spacing and balance
 - Game result now shows in two centered lines
+
+## Iteration 3: Result Animation & Sound Control
+
+- Added visual player vs Doraemon result comparison
+- Laughing or angry Doraemon shows based on win/lose
+- Animated hand images pop in with transition
+- Title replaced with animated logo
+- Background music control (Play / Stop)
+- Sound effects for win / lose, automatically muted if music off
 
 ## Technologies
 - HTML
