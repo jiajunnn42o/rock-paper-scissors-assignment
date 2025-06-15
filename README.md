@@ -1,36 +1,42 @@
-# Iteration 1 - Basic Rock Paper Scissors Game
+This is the final version of the project. See releases for previous iterations (v1.0, v1.1, v2.0, v3.0-preview, v3.0).
+
+# Rock Paper Scissors - Doraemon Theme
+
+A browser-based Rock Paper Scissors game with Doraemon-themed design, sound effects and animations.
+
+---
 
 ## Features
-- User selects Rock, Paper or Scissors
-- Computer randomly selects a move
-- Game determines and displays the result (Win, lose or draw)
-- Text-based output only (no images or animations)
 
-## Iteration 2 – Score System Added 
+-  Doraemon-styled animated buttons
+-  Background music with mute/unmute toggle
+-  Randomized computer choice
+-  Player vs Doraemon scoring system
+-  Result screen with win/lose/draw reactions
+-  Animated title and visual transitions
+-  Responsive layout with CSS
 
-## Features
-- Added score tracking for both players:
-  - You +1 point when you win
-  - Doraemon +1 point when you lose
-- Scores are displayed in a single styled box next to the title
-- Layout refined for cleaner spacing and balance
-- Game result now shows in two centered lines
+---
 
-## Iteration 3: Result Animation & Sound Control
+##  How to Play
 
-- Added visual player vs Doraemon result comparison
-- Laughing or angry Doraemon shows based on win/lose
-- Animated hand images pop in with transition
-- Title replaced with animated logo
-- Background music control (Play / Stop)
-- Sound effects for win / lose, automatically muted if music off
+1. Choose rock, paper or scissors by clicking the button
+2. Doraemon will choose randomly
+3. See the result, score and animated reaction
+4. Click **Try Again** to restart the round
 
-## Technologies
-- HTML
-- CSS
-- JavaScript
+---
 
-## How to Run
-1. Open `index.html` in your browser
-2. Click a button to make your move
-3. See the result displayed below
+## Tech Stack
+
+- HTML / CSS / JavaScript
+- Animated PNG assets
+- Audio playback control (BGM)
+
+---
+
+## Version
+
+Main branch = Final version (`v3.0`)
+
+---
